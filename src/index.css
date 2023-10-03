@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'BabyBumi';
+    src: url("./assets/Baby Bumi.ttf") format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1{
+    font-family: "BabyBumi";
+    margin-bottom: 7px;
+    color: rgb(190, 192, 235);
+    font-size: 50px;
+}
